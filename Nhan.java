@@ -47,7 +47,7 @@ public class Nhan {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame("Phép Trừ");
+		frame = new JFrame("Phép Nhân");
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
@@ -70,7 +70,7 @@ public class Nhan {
 		frame.getContentPane().add(textField2);
 		textField2.setColumns(10);
 		
-		JButton btnSubtract = new JButton("Trừ");
+		JButton btnSubtract = new JButton("Nhân	");
 		btnSubtract.setBounds(120, 110, 100, 25);
 		frame.getContentPane().add(btnSubtract);
 		
